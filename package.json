@@ -1,0 +1,32 @@
+{
+  "name": "netflixgpt",
+  "version": "1.0.0",
+  "description": "This is a React Project",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yousuf-22/NetfixGPT.git"
+  },
+  "keywords": [
+    "Hello"
+  ],
+  "author": "Yousuf Sayyed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yousuf-22/NetfixGPT/issues"
+  },
+  "homepage": "https://github.com/Yousuf-22/NetfixGPT#readme",
+  "devDependencies": {
+    "parcel": "^2.14.2"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.15"
+  }
+}
