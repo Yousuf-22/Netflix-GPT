@@ -42,6 +42,11 @@ index.css
 @import "tailwindcss";
 
 # Features:
+
+- React App
+- Configured Tailwind
+- Header
+- Login form
  
 - Login/sign-up
     - Sign In/ Sign-Up Form

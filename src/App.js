@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Body from "./components/Body";
 
 const App = () => {
   return (
-    <div className="">
-      <h2 className="text-green-500">Hello</h2>
-    </div>
+    <Body/>
   );
 }
 
