@@ -1,5 +1,17 @@
 # Netflix GPT
 
+# Done
+
+- Header
+- Routing of App
+- Login Form
+- Sign up Form
+- Form validaton
+- useRef Hook 
+- Firebase Setup
+- Deploying our App to production 
+- Create SignUp User Account
+
 
 # Setuping React Project with parcel
 - Create React using parcel from scratch
@@ -63,3 +75,16 @@ index.css
 - NetFlixGPT
     - Search Bar
     - Movie Suggestions
+
+
+# Firebase (Auth)
+
+- sudo npm install -g firebase
+- sudo npm intall -g firebase-tools
+- firebase login
+
+# Setuping redux store
+
+- To store the login user data.
+    - npm i -D @reduxjs/toolkit
+    - npm i react-redux
