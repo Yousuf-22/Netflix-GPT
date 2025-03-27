@@ -7,14 +7,13 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
-import { useNavigate } from "react-router";
 import { updateProfile } from "firebase/auth";
 import { auth } from "../utils/firebase";
+import { addUser } from "../utils/userSlice";
 
 const Login = () => {
   const [isSignInForm, setisSignInForm] = useState(true);
   const [errorMessage, seterrorMessage] = useState(null);
-  const navigate = useNavigate();
 
   const name = useRef(null);
   const email = useRef(null);
@@ -45,7 +44,15 @@ const Login = () => {
             photoURL: "https://avatars.githubusercontent.com/u/175668381?v=4",
           })
             .then(() => {
-              navigate("/browse");
+              const { uid, email, displayName, photoURL } = auth.currentUser;
+              dispatch(
+                addUser({
+                  uid: uid,
+                  email: email,
+                  displayName: displayName,
+                  photoURL: photoURL, 
+                })
+              );
             })
             .catch((error) => {
               seterrorMessage(error.message);
@@ -65,8 +72,6 @@ const Login = () => {
       )
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;

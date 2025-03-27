@@ -88,3 +88,9 @@ index.css
 - To store the login user data.
     - npm i -D @reduxjs/toolkit
     - npm i react-redux
+
+# Using The Movie Database (TMDB) Api for App Data
+
+- create a App
+- get access token from it..
+- Get data from TMDB now playing movie list API
