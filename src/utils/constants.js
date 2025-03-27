@@ -3,3 +3,6 @@ export const NetflixLOGO =
 
 export const userLOGO =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKNdKRIgbcMkyGq1cQeq40IA-IQS-FDWnTQ&s";
+
+export const IMG_CDNURl =
+  "https://image.tmdb.org/t/p/w500";
