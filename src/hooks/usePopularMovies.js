@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addPopularMovies } from "../utils/moviesSlice";
+import { addNowPlayingMovies, addPopularMovies } from "../utils/moviesSlice";
 import { useEffect } from "react";
 
 const options = {

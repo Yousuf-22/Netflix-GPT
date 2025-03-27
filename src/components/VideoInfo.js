@@ -1,6 +1,6 @@
 const VideoInfo = ({ title, overview }) => {
   return (
-    <div className="w-screen aspect-video pt-46 px-12 absolute text-white bg-gradient-to-r from-black">
+    <div className="w-screen aspect-video pt-38 px-12 absolute text-white bg-gradient-to-r from-black">
       <h1 className="ml-4 text-5xl font-bold">{title}</h1>
       <p className=" ml-4 py-6 text-md w-1/3 font-bold">{overview}</p>
       <div className="">
